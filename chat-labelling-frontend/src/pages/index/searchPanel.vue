@@ -30,7 +30,7 @@
             <div slot="content">
               <List item-layout="vertical" size="small" v-if="name==='Answer'">
                 <ListItem v-for="(item,index) in actions" :key="name+'-'+index">
-                  <Checkbox :label="name+'-'+index" :disabled="active!==name">
+                  <Checkbox :label="name+'-'+index" :disabled="active.indexOf(name)<0">
                     <strong>
                       <a style="color:black" target="_blank" :href="item.link">{{item.title}}</a>
                     </strong>
@@ -47,7 +47,7 @@
                 :key="name+'-'+index"
                 style="padding:10px;width:50%;float:left"
               >
-                <Checkbox :label="name+'-'+index" :disabled="active!==name">{{item.title}}</Checkbox>
+                <Checkbox :label="name+'-'+index" :disabled="active.indexOf(name)<0">{{item.title}}</Checkbox>
               </div>
               <div class="clearfix"></div>
             </div>
@@ -67,7 +67,7 @@ const arrayEaquals = (arr1, arr2) => {
   return difference.length === 0 ? 'orderChange' : false
 }
 export default {
-  props: ['value', 'activeActions', 'loading', 'data'],
+  props: ['value', 'activeActions', 'loading', 'data', 'searchResultConfig'],
   model: {
     prop: 'value',
     event: 'change'
@@ -94,12 +94,11 @@ export default {
     },
     activeActions (newVal) {
       if (!newVal) return
-      let currentActive = ''
-      if (newVal.indexOf('Answer') >= 0) { currentActive = 'Answer' }
-      if (newVal.indexOf('Clarify') >= 0 || newVal.indexOf('Recommend') >= 0) {
-        currentActive = 'Suggest'
+      let currentActive = []
+      for (let activeItem in this.searchResultConfig) {
+        this.searchResultConfig[activeItem].indexOf(newVal[0]) >= 0 && currentActive.push(activeItem)
       }
-      this.active = currentActive
+      this.active = [...currentActive]
     },
     data (newVal) {
       this.collapse = Object.keys(newVal)

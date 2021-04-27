@@ -1,0 +1,934 @@
+[
+  {
+    "conversations": [
+      {
+        "msg_id": 195,
+        "turn_id": 1,
+        "role": "user",
+        "intent": [
+          "Chitchat"
+        ],
+        "response": "你好，想请教你几个问题可以吗？"
+      },
+      {
+        "msg_id": 204,
+        "turn_id": 1,
+        "role": "system",
+        "state": [],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Chitchat"
+        ],
+        "selected_query": [],
+        "selected_result": [],
+        "response": "可以，很乐意为您服务。"
+      },
+      {
+        "msg_id": 208,
+        "turn_id": 2,
+        "role": "user",
+        "intent": [
+          "Reveal"
+        ],
+        "response": "我想了解环境保护法相关的内容。"
+      },
+      {
+        "msg_id": 229,
+        "turn_id": 2,
+        "role": "system",
+        "state": [
+          "环境保护法"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Clarify",
+          "Choice"
+        ],
+        "selected_query": [
+          {
+            "id": "suggest-16",
+            "title": "我国环境法的基本制度有哪些"
+          },
+          {
+            "id": "suggest-13",
+            "title": "环境法基本制度法条"
+          },
+          {
+            "id": "suggest-10",
+            "title": "环境安全法律法规清单"
+          },
+          {
+            "id": "suggest-15",
+            "title": "2020年新环保法"
+          }
+        ],
+        "selected_result": [],
+        "response": "您想了解环境保护法哪方面的内容呢？条例、案列？"
+      },
+      {
+        "msg_id": 233,
+        "turn_id": 3,
+        "role": "user",
+        "intent": [
+          "Interpret"
+        ],
+        "response": "嗯...我想问的是有关环境污染方面的具体条款，可以给出一些吗？"
+      },
+      {
+        "msg_id": 274,
+        "turn_id": 3,
+        "role": "system",
+        "state": [
+          "环境保护法",
+          "环境污染"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Answer",
+          "Summary"
+        ],
+        "selected_query": [],
+        "selected_result": [
+          {
+            "id": "answer-1",
+            "link": "http://www.baidu.com/link?url=9IsXc_KsGJ51Gh7DOU6YU4H3aFHBOmhl5EFDrt9VkMEa4BrWufP8JR2-vvaIPO-00jgGbLvK9FTEYT_WWPJjG3Xt50s_rPcP0dfKtAIHvrM_PodEP7NdhINv3BJzVZERbGsLpA5xs1mLQKrxRo-0C-FPOkhQHGu1R9f1NbfJ8ar8Tudgu2MTyNnAXTtPHvaUxB1-azFedwyvBfF1VFmaCbP_KU7YxC0xF6Ql6DHeRjW"
+          },
+          {
+            "id": "answer-7",
+            "link": "http://www.baidu.com/link?url=D_6y6VGSWy3SbwiycJ89Wqd7p1ZYgjkk9gvvuPS9PrciuQYQpUZ50FadsPj3U6gNIzolzlcX-G4pkPHi3jcPyK"
+          },
+          {
+            "id": "answer-5",
+            "link": "http://www.baidu.com/link?url=KZqmR2llhHsjk45hYWdbNKurJL5LrzFkKoIrim0pMZSHlX78u_2VDLeCAWOn1two"
+          }
+        ],
+        "response": "具体条款有，第四十一条造成环境污染危害的，有责任排除危害，并对直接受到损害的单位或者个人赔偿损失。\n赔偿责任和赔偿金额的纠纷，可以根据当事人的请求，由环境保护行政主管部门或者其他依照法律规定行使环境监督管理权的部门处理；当事人对处理决定不服的，可以向人民法院起诉。当事人也可以直接向人民法院起诉。\n完全由于不可抗拒的自然灾害，并经及时采取合理措施，仍然不能避免造成环境污染损害的，免予承担责任。"
+      },
+      {
+        "msg_id": 278,
+        "turn_id": 3,
+        "role": "user",
+        "intent": [
+          "Chitchat"
+        ],
+        "response": "好的，谢谢。"
+      },
+      {
+        "msg_id": 294,
+        "turn_id": 4,
+        "role": "user",
+        "intent": [
+          "Reveal"
+        ],
+        "response": "这正是我需要的，可以再给我推荐一个相关案例么？"
+      },
+      {
+        "msg_id": 343,
+        "turn_id": 4,
+        "role": "system",
+        "state": [
+          "环境保护法",
+          "环境污染",
+          "案例"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Clarify",
+          "Yes_no"
+        ],
+        "selected_query": [
+          {
+            "id": "suggest-15",
+            "title": "近几年环境污染的案例"
+          },
+          {
+            "id": "suggest-16",
+            "title": "环境污染重大案例"
+          },
+          {
+            "id": "suggest-18",
+            "title": "4个环境污染典型案例"
+          },
+          {
+            "id": "suggest-17",
+            "title": "环境污染最新案例"
+          }
+        ],
+        "selected_result": [],
+        "response": "您是想要案列分析的链接还是文字呢？"
+      },
+      {
+        "msg_id": 347,
+        "turn_id": 5,
+        "role": "user",
+        "intent": [
+          "Interpret"
+        ],
+        "response": "那请给我一个链接吧，我仔细研究研究。"
+      },
+      {
+        "msg_id": 370,
+        "turn_id": 5,
+        "role": "system",
+        "state": [
+          "环境保护法",
+          "环境污染",
+          "案例"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Recommend"
+        ],
+        "selected_query": [
+          {
+            "id": "suggest-16",
+            "title": "环境污染重大案例"
+          },
+          {
+            "id": "suggest-17",
+            "title": "环境污染最新案例"
+          },
+          {
+            "id": "suggest-15",
+            "title": "近几年环境污染的案例"
+          },
+          {
+            "id": "suggest-18",
+            "title": "4个环境污染典型案例"
+          }
+        ],
+        "selected_result": [],
+        "response": "好的，这是一些案列分析的链接：http://www.baidu.com/link?url=IBJlOko854LGDnmrX8GD4GTfPG2XBCYhRONsCrunqX-cma2y_cPRSW_dJmq2x_Jf7B-6cZdUIVvxU01TcF0Q9b3ZoH6ITE35fxHsYeichuZ3rObb5OFmhikdaTqIOojOiRp5DgJjr2M8eHwNgx4KhG5iaj_xIWf58CVGvM5i_CKBtJav8kyUAW_H99lcQPRJ；\nhttp://www.baidu.com/link?url=W3Cd1KitVo6GIw5ze-7GMEcq4u5X625pv8rD09bwI0wHkKm-1_zg7hGUCqazZOcLB1Z_ysetstlhwUMHPfrylK。\n"
+      },
+      {
+        "msg_id": 374,
+        "turn_id": 5,
+        "role": "user",
+        "intent": [
+          "Feedback",
+          "Perfect"
+        ],
+        "response": "太棒了！"
+      },
+      {
+        "msg_id": 378,
+        "turn_id": 6,
+        "role": "user",
+        "intent": [
+          "Reveal"
+        ],
+        "response": "那我如果遇到了一个环境污染事件，我应该如何去举报呢？"
+      },
+      {
+        "msg_id": 403,
+        "turn_id": 6,
+        "role": "system",
+        "state": [
+          "环境保护法",
+          "环境污染",
+          "举报途径"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Answer",
+          "Summary"
+        ],
+        "selected_query": [],
+        "selected_result": [
+          {
+            "id": "answer-0",
+            "link": "http://www.baidu.com/link?url=294GERhjQwBXWwOcVb_kSg3hG2Hpo3Fvm-ojT3MIBDqcXLLyy0oTunkkSjWKo4f4JrttcHqAGPMrkHv2Ua392q"
+          },
+          {
+            "id": "answer-2",
+            "link": "http://www.baidu.com/link?url=3YUjLGOG4oDeZjZJyz5VjNB562HPAc0TGpCEbeZfVnnaA7XIvStIvIAvp8ReGrbFV2ev4wSDhJURzalJVpSWU_"
+          },
+          {
+            "id": "answer-1",
+            "link": "http://www.baidu.com/link?url=VhO9pZUqKdcxr6kRNZWiBFoafpZ4bzvPLSJnWBczxeuSmSnuY0CtxhDbZ7QKzI7N8u9_CMUYHlwFEHMAy0NYkkbvOK7kp0zjW5SK4W-tc1m"
+          }
+        ],
+        "response": "可以向环境保护主管部门或者其他负有环境保护监督管理职责的部门举报， \n　　１、通过拨打“１２３６９”环保投诉热线，２４小时值守畅通，这是最方便最快捷的方式 \n　　２、；通过来信来访反映问题（收信地址：ＸＸ市ＸＸ区ＸＸ路ＸＸ市环保局，邮编ＸＸＸＸＸＸ）； \n　　３、向当地信访部门反映； \n　　４、向商洛市环保局网站局长信箱或投诉留言栏目反映每天固定专人进行收集处理； \n　　５、进入ＸＸ省网上信访大厅向环保部门反映； \n　　６、通过“１２３６９”微信举报平台反映。 "
+      },
+      {
+        "msg_id": 423,
+        "turn_id": 7,
+        "role": "user",
+        "intent": [
+          "Chitchat"
+        ],
+        "response": "好的，thank U！我没有什么问题啦。"
+      },
+      {
+        "msg_id": 434,
+        "turn_id": 7,
+        "role": "system",
+        "state": [
+          "环境保护法",
+          "环境污染",
+          "举报途径"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Chitchat"
+        ],
+        "selected_query": [],
+        "selected_result": [],
+        "response": "好的，有问题请随时询问我。"
+      }
+    ],
+    "conversation_id": 189,
+    "intent": "intent:你想了解有关环保及破坏的惩罚 description:首先查找坏境保护法，给出有关环境污染的条款。然后找出有关污染环境的惩罚措施。之后再给出相关的一些案例。最后给出举报的途径。",
+    "from": 1
+  },
+  {
+    "conversations": [
+      {
+        "msg_id": 468,
+        "turn_id": 1,
+        "role": "user",
+        "intent": [
+          "Chitchat"
+        ],
+        "response": "您好，人工智能小姐姐吗？"
+      },
+      {
+        "msg_id": 477,
+        "turn_id": 1,
+        "role": "system",
+        "state": [],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Chitchat"
+        ],
+        "selected_query": [],
+        "selected_result": [],
+        "response": "是的，很高兴为您服务。"
+      },
+      {
+        "msg_id": 487,
+        "turn_id": 2,
+        "role": "user",
+        "intent": [
+          "Reveal"
+        ],
+        "response": "帮我找找小学英语网的网址好么？"
+      },
+      {
+        "msg_id": 502,
+        "turn_id": 2,
+        "role": "system",
+        "state": [
+          "小学英语网"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Recommend"
+        ],
+        "selected_query": [
+          {
+            "id": "suggest-10",
+            "title": "小学英语教学资源网站"
+          },
+          {
+            "id": "suggest-13",
+            "title": "小学英语网校"
+          },
+          {
+            "id": "suggest-19",
+            "title": "小学英语网课"
+          }
+        ],
+        "selected_result": [],
+        "response": "这是小学英语网课的网站：http://www.baidu.com/link?url=fBX2U849VBKX7EBNRS1WvxDdek3Pt74jWL4F2-5GX9OB9-ztyPCza8EqrDS--tSi"
+      },
+      {
+        "msg_id": 516,
+        "turn_id": 3,
+        "role": "user",
+        "intent": [
+          "Interpret"
+        ],
+        "response": "可以讲讲这个网站的相关信息吗？"
+      },
+      {
+        "msg_id": 537,
+        "turn_id": 3,
+        "role": "system",
+        "state": [
+          "小学英语网"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Clarify",
+          "Choice"
+        ],
+        "selected_query": [
+          {
+            "id": "suggest-10",
+            "title": "小学英语教学资源网站"
+          },
+          {
+            "id": "suggest-13",
+            "title": "小学英语网校"
+          },
+          {
+            "id": "suggest-19",
+            "title": "小学英语网课"
+          }
+        ],
+        "selected_result": [],
+        "response": "您想了解那方面的信息呢？"
+      },
+      {
+        "msg_id": 545,
+        "turn_id": 4,
+        "role": "user",
+        "intent": [
+          "Interpret"
+        ],
+        "response": "这个网站是什么时间建立的啊？"
+      },
+      {
+        "msg_id": 558,
+        "turn_id": 4,
+        "role": "system",
+        "state": [
+          "小学英语网"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Answer",
+          "NoAnswer"
+        ],
+        "selected_query": [],
+        "selected_result": [],
+        "response": "没有找到相关的建立时间，可以为您推荐其他的相关信息吗？"
+      },
+      {
+        "msg_id": 572,
+        "turn_id": 4,
+        "role": "user",
+        "intent": [
+          "Feedback",
+          "Fair"
+        ],
+        "response": "啊，那好吧。"
+      },
+      {
+        "msg_id": 580,
+        "turn_id": 5,
+        "role": "user",
+        "intent": [
+          "Reveal"
+        ],
+        "response": "有该网站资源的相关信息吗？"
+      },
+      {
+        "msg_id": 609,
+        "turn_id": 5,
+        "role": "system",
+        "state": [
+          "小学英语网"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Answer",
+          "Summary"
+        ],
+        "selected_query": [],
+        "selected_result": [
+          {
+            "id": "answer-0",
+            "link": "http://www.baidu.com/link?url=fBX2U849VBKX7EBNRS1WvxDdek3Pt74jWL4F2-5GX9OB9-ztyPCza8EqrDS--tSi"
+          }
+        ],
+        "response": "该网站有国家级优质课获奖名师的视频课例，教学风格多样化，各有特色，各有所长，非常值得学习借鉴！"
+      },
+      {
+        "msg_id": 623,
+        "turn_id": 6,
+        "role": "user",
+        "intent": [
+          "Reveal"
+        ],
+        "response": "再给我一些有关该网站的其他信息吧。"
+      },
+      {
+        "msg_id": 646,
+        "turn_id": 6,
+        "role": "system",
+        "state": [
+          "小学英语网"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Answer",
+          "Summary"
+        ],
+        "selected_query": [],
+        "selected_result": [
+          {
+            "id": "answer-0",
+            "link": "http://www.baidu.com/link?url=fBX2U849VBKX7EBNRS1WvxDdek3Pt74jWL4F2-5GX9OB9-ztyPCza8EqrDS--tSi"
+          }
+        ],
+        "response": "该网站外教教学，纯正英语发音；联合欧洲的英语学院，对孩子进行测评考试，养成小学生的思维和创新意识。专为3-12岁儿童定制，课程内容贴合孩子的日常生活情景，采用寓教于乐的教学方式，让孩子在有趣的故事学习英语。"
+      },
+      {
+        "msg_id": 658,
+        "turn_id": 7,
+        "role": "user",
+        "intent": [
+          "Reveal"
+        ],
+        "response": "哇，这么好啊。那请再给我一些同类网站的网址吧！"
+      },
+      {
+        "msg_id": 677,
+        "turn_id": 7,
+        "role": "system",
+        "state": [
+          "小学英语网"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Recommend"
+        ],
+        "selected_query": [
+          {
+            "id": "suggest-10",
+            "title": "小学英语教学资源网站"
+          },
+          {
+            "id": "suggest-13",
+            "title": "小学英语网校"
+          },
+          {
+            "id": "suggest-22",
+            "title": "小学英语网络教学"
+          },
+          {
+            "id": "suggest-12",
+            "title": "英语网上教学"
+          }
+        ],
+        "selected_result": [],
+        "response": "这是一些其他的小学英语教学网站，http://www.baidu.com/link?url=jB1okKmE59lgzkEdHXbZf43BESCx7d4ATfwX6jyAV_7FRMJH_75ZmbsDkZRn1SQ8。"
+      },
+      {
+        "msg_id": 685,
+        "turn_id": 8,
+        "role": "user",
+        "intent": [
+          "Feedback",
+          "Perfect"
+        ],
+        "response": "太棒了，谢谢你。"
+      },
+      {
+        "msg_id": 696,
+        "turn_id": 8,
+        "role": "system",
+        "state": [
+          "小学英语网"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Chitchat"
+        ],
+        "selected_query": [],
+        "selected_result": [],
+        "response": "不客气。"
+      }
+    ],
+    "conversation_id": 452,
+    "intent": "intent:你想了解并找到小学英语网 description:首先查找小学英语网的网址，给出网址。然后搜索小学英语网的相关信息，如建立时间，管理人员，网站资源等。之后再给出其他同类型的网站。",
+    "from": 1
+  },
+  {
+    "conversations": [
+      {
+        "msg_id": 733,
+        "turn_id": 1,
+        "role": "user",
+        "intent": [
+          "Chitchat"
+        ],
+        "response": "aloha! 听说你很厉害，上知天文，下至地理，是真的吗？"
+      },
+      {
+        "msg_id": 750,
+        "turn_id": 1,
+        "role": "system",
+        "state": [],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Chitchat"
+        ],
+        "selected_query": [],
+        "selected_result": [],
+        "response": "aloha那当然了\n"
+      },
+      {
+        "msg_id": 761,
+        "turn_id": 2,
+        "role": "user",
+        "intent": [
+          "Reveal"
+        ],
+        "response": "那我想知道有哪些经典的古诗词，列举几个你喜欢的。"
+      },
+      {
+        "msg_id": 785,
+        "turn_id": 2,
+        "role": "system",
+        "state": [
+          "古诗词",
+          "经典"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Answer",
+          "Summary"
+        ],
+        "selected_query": [],
+        "selected_result": [
+          {
+            "id": "answer-0",
+            "link": "http://www.baidu.com/link?url=ZNzx2xocQOjOsJU2FaW1rQNxwP7QghFESd048Eyrc-AABmQpCYqkUoJgvQqWKzyl"
+          },
+          {
+            "id": "answer-3",
+            "link": "http://www.baidu.com/link?url=7uylkernwt6ZcZPVlZA5iN-NdrO0muATnIIm21fiP2q5KUviYd3X3XZC6AwO9tLT"
+          }
+        ],
+        "response": "为您推荐一首古诗词：\n门有车马客行\n\n魏晋：陆机\n\n门有车马客，驾言发故乡。\n念君久不归，濡迹涉江湘。\n投袂赴门涂，揽衣不及裳。\n拊膺携客泣，掩泪叙温凉。\n借问邦族间，恻怆论存亡。\n亲友多零落，旧齿皆凋丧。\n市朝互迁易，城阙或丘荒。\n坟垄日月多，松柏郁茫茫。\n天道信崇替，人生安得长。\n慷慨惟平生，俯仰独悲伤。"
+      },
+      {
+        "msg_id": 797,
+        "turn_id": 2,
+        "role": "user",
+        "intent": [
+          "Feedback",
+          "Fair"
+        ],
+        "response": "你这诗我不太喜欢"
+      },
+      {
+        "msg_id": 803,
+        "turn_id": 3,
+        "role": "user",
+        "intent": [
+          "Interpret"
+        ],
+        "response": "还有，我想让你列举诗，你就给我一首。"
+      },
+      {
+        "msg_id": 840,
+        "turn_id": 3,
+        "role": "system",
+        "state": [
+          "古诗词",
+          "列举"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Clarify",
+          "Yes_no"
+        ],
+        "selected_query": [
+          {
+            "id": "suggest-9",
+            "title": "古诗词大全"
+          },
+          {
+            "id": "suggest-10",
+            "title": "古诗"
+          }
+        ],
+        "selected_result": [],
+        "response": "对不起哦，请问您是想了解哪方面的诗？"
+      },
+      {
+        "msg_id": 857,
+        "turn_id": 3,
+        "role": "system",
+        "state": [
+          "古诗词",
+          "列举"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Clarify",
+          "Choice"
+        ],
+        "selected_query": [
+          {
+            "id": "suggest-9",
+            "title": "古诗词大全"
+          },
+          {
+            "id": "suggest-12",
+            "title": "古诗词名句"
+          },
+          {
+            "id": "suggest-10",
+            "title": "古诗"
+          }
+        ],
+        "selected_result": [],
+        "response": "请问您想了解题目还是全文还是名句？"
+      },
+      {
+        "msg_id": 867,
+        "turn_id": 4,
+        "role": "user",
+        "intent": [
+          "Request",
+          "Summary"
+        ],
+        "response": "我想找经典的古诗词，列出题目，诗人，时间和全文，经典很重要，先推荐三首吧。"
+      },
+      {
+        "msg_id": 892,
+        "turn_id": 4,
+        "role": "system",
+        "state": [
+          "古诗词",
+          "列举",
+          "诗人",
+          "经典"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Answer",
+          "Summary"
+        ],
+        "selected_query": [],
+        "selected_result": [
+          {
+            "id": "answer-3",
+            "link": "http://www.baidu.com/link?url=6xkNQ8Ea2MA3_OJ0RSOq_eaEKdc0Hb7PFIzIJ8SRpQ-rOpaWxhv4VXtJjtSNkH66"
+          }
+        ],
+        "response": "《饮酒》——晋·陶渊明    结庐在人境，而无车马喧。问君何能尔？心远地自偏。采菊东篱下，悠然见南山。山气日夕佳，飞鸟相与还。此中有真意，欲辨已忘言。\n《卖炭翁》\n——唐·白居易\n卖炭翁，伐薪烧炭南山中。满面尘灰烟火色，两鬓苍苍十指黑。卖炭得钱何所营？身上衣裳口中食。可怜身上衣正单，心忧炭贱愿天寒。夜来城外一尺雪，晓驾炭车辗冰辙。牛困人饥日已高，市南门外泥中歇。翩翩两骑来是谁？黄衣使者白衫儿。手把文书口称敕，回车叱牛牵向北。一车炭，千余斤，官使驱将惜不得。半匹红纱一丈绫，系向牛头充炭直。\n《天净沙·秋思》——元 马致远\n枯藤老树昏鸦，小桥流水人家，古道西风瘦马。夕阳西下，断肠人在天涯。"
+      },
+      {
+        "msg_id": 902,
+        "turn_id": 4,
+        "role": "user",
+        "intent": [
+          "Feedback",
+          "Good"
+        ],
+        "response": "我很喜欢天净沙秋思"
+      },
+      {
+        "msg_id": 910,
+        "turn_id": 5,
+        "role": "user",
+        "intent": [
+          "Request",
+          "Summary"
+        ],
+        "response": "你能讲讲这首诗的背景或者背后的故事吗？"
+      },
+      {
+        "msg_id": 933,
+        "turn_id": 5,
+        "role": "system",
+        "state": [
+          "天净沙秋思"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Answer",
+          "Summary"
+        ],
+        "selected_query": [],
+        "selected_result": [
+          {
+            "id": "answer-1",
+            "link": "http://www.baidu.com/link?url=CEN0SDipXmF4p9sAdKIeCMI7FdQxSPyw2cOlY5yUSLLciBJp2cZQJHB0pP4ZFC5BaPE4pIZA-6xcTK3HVPm6Fa"
+          }
+        ],
+        "response": " 头两句“枯藤老树昏鸦，小桥流水人家”，就给人造成一种冷落暗淡的气氛，又显示出一种清新幽静的境界，这里的枯藤，老树给人以凄凉的感觉，昏，点出时间已是傍晚；小桥流水人家使人感到幽雅闲致。12个字画出一幅深秋僻静的村野图景。古道西风瘦马，诗人描绘了一幅秋风萧瑟苍凉凄苦的意境，为僻静的村野图又增加一层荒凉感。夕阳西下使这幅昏暗的画面有了几丝惨淡的光线，更加深了悲凉的气氛。诗人把十种平淡无奇的客观景物，巧妙地连缀起来，通过枯，老，昏，古，西，瘦六个字，将诗人的无限愁思自然的寓于图景中。最后一句，断肠人在天涯是点睛之笔，这时在深秋村野图的画面上，出现了一位漂泊天涯的游子，在残阳夕照的荒凉古道上，牵着一匹瘦马，迎着凄苦的秋风，信步漫游，愁肠绞断，却不知自己的归宿在何方，透露了诗人怀才不遇的悲凉情怀，恰当地表现了主题，这首小令是采取寓情于景的手法来渲染气氛，显示主题，完美地表现了漂泊天涯的旅人的愁思。与此曲感情比较相似的还有杜甫一首诗中的“感时花溅泪，恨别鸟惊心。”\n　　马致远一曲小令，短短28字，意蕴深远，结构精巧，平仄起伏，顿挫有致，音韵铿锵，直贯灵心。其四射的艺术魅力，倾倒古今多少文士雅客，骚人才子。曲中意味，既“深得唐人绝句妙景”（《人间词话》），又兼具宋词清隽疏朗之自然，历来被推崇为描写自然的佳作，堪称\"秋思之祖\"（《中原音韵》）更被王国维称赞其秋思为小令之最佳者。它勾画了一幅浪迹天涯的游子在深秋黄昏时刻孤寂无依的悲凉处境和思念故乡的愁苦心情。你看: 夕阳下, 乌鸦归巢, 小桥边，农人回家; 而荒凉古道上, 瑟瑟秋风中, 我们的主人公却是疲人瘦马，踽踽独行，夜宿何处, 明日何往？都还不得而知。这又怎不叫他愁肠寸断、倍思故乡! 全曲不着一\"秋\", 却写尽深秋荒凉萧瑟的肃杀景象; 不用一\"思\", 却将游子浓重的乡愁与忧思写得淋漓尽致。正所谓：“不著一字, 尽得风流。” “枯藤老树昏鸦，” 小令伊始，由近处着笔，“在一株枯藤缠绕的老树枝头，几只乌鸦守在巢边‘哇哇’怪叫”，就将一幅萧瑟肃杀的深秋景致展现在读者眼前，紧紧扣住了读者的心弦。 “藤”、“树”、“鸦”，本是郊野司空见惯的景物，并无特别之处，可一旦与“枯”、“老”、“昏”结合匹配，一股萧瑟肃杀之气立即从字里行间油然升起，笼罩在读者心头，再加上平仄的转换与音韵的配合，“平平—仄仄—平平—”，两字一顿，语调由低转高，再由高转低，“枯、老、昏”依次递进，紧压过来，让人顿感气息闭塞，真有喘不过气来的感觉。 “小桥流水人家，”诗人笔锋一转，读者的视线也跟着带向远方，一组充满和平安详生活气息的图画展现在我们面前，我们高度紧张的情绪也因此一缓，长长地吐出一口气来。这既是对远处风景的诗意描绘，也表现了漂泊的诗人对悠闲恬静的田园生活的向往与渴望。在平仄的运用上，采用了“仄平—平仄—平平—”的组合方式，语调也因平仄的转换而显得欢快与和缓起来。“小桥流水人家”也因此而成为描写诗意的田园生活的千古绝句。 “古道西风瘦马。”诗人笔锋一收，又将我们从美好的憧憬与向往中拉回到无奈的现实里来：古道萧索、西风凋零、瘦马宛然，无论情愿不情愿，喜欢不喜欢，人在江湖，身不由己，浪迹天涯的孤行苦旅还得继续。“仄仄—平平—仄仄—”，音声一变，气息也由舒缓再次转为短促，显示出诗人的激愤的情绪，我们的心情也不由自主地跟着紧张起来。 “夕阳西下—，”“平平平仄——”我们的心再次被诗人揪起来：落日西逝，暮霭笼罩，颠沛劳顿的诗人今夜会宿在何处？明日还将去往何方？ “断肠人在天涯。” 诗人此时愁苦之情溢于言表，是一种浓浓的离愁才下眉头，又上心头，所以“仄平平—仄平平——”诗人发出一声仰天浩叹，就此作结。 “伤心的旅人，在遥远的异乡漂泊流浪。”是伤心？是孤寂？是悲哀？是无助？还是无奈？又似乎是兼而有之。这既是诗人对人生际遇的感怀与嗟叹，也是对当时黑暗现实的有力质问和无情揭露。整首小令初看起来，纯用白描手法，仔细揣摩，却又满是比喻象征。用词之精炼准确，结构之精致巧妙，寓意之深刻广泛，实为罕见。\n　　这首小令寓情于景，生动的表现了一个长期流落异乡的人的悲哀。这首小令句法别致，前三行全由名词性词组构成，一共列出九种景物，言简而义丰。 “断肠”二字为诗眼。抒发了一个飘零天涯的游子在秋天思念故乡、倦于漂泊的凄苦愁楚之情。这首小令寄情于物，把凄苦愁楚之情，通过众多自然景物的鲜明形象，浓重的深秋色彩，刻画得淋漓尽致。 "
+      },
+      {
+        "msg_id": 945,
+        "turn_id": 5,
+        "role": "user",
+        "intent": [
+          "Feedback",
+          "Bad"
+        ],
+        "response": "你这太长了，我懒得看。"
+      },
+      {
+        "msg_id": 953,
+        "turn_id": 6,
+        "role": "user",
+        "intent": [
+          "Request",
+          "Summary"
+        ],
+        "response": "请简短一点。"
+      },
+      {
+        "msg_id": 966,
+        "turn_id": 6,
+        "role": "system",
+        "state": [
+          "天净沙秋思"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Answer",
+          "Summary"
+        ],
+        "selected_query": [],
+        "selected_result": [
+          {
+            "id": "answer-0",
+            "link": "http://www.baidu.com/link?url=UXMOA4RML25FHa4Kt1sIZ-CAcWr_ylj0X3tQuTFdezXErW36oERnJ0RpcccXPZknHFDFGkg57nsGEhq7Sg-tUmuXIlrjjHY8ciEGUXKQqi2VL-6BnXVt5WR3_g2hg7rHmsg970tvmX0TpKmSRr07jlYNWBaD7i3UzGgxOef4KW4gOmMvDccn08lmwforyi_U3iN2yG5XxFSyx1eh5jHbWSvlz1bV9qxKm4PSOwTdpkA5iNz4PcvA48SzUSEXRV2H"
+          }
+        ],
+        "response": "《天净沙·秋思》是元曲作家马致远创作的一首小令。此曲以多种景物并置，组合成一幅秋郊夕照图，让天涯游子骑一匹瘦马出现在一派凄凉的背景上，从中透出令人哀愁的情调，抒发了一个飘零天涯的游子在秋天思念故乡、倦于漂泊的凄苦愁楚之情。这支小令句法别致，前三句全由名词性词组构成，一共列出九种景物，言简而意丰。全曲仅五句二十八字，语言极为凝练却容量巨大，意蕴深远，结构精巧，顿挫有致，被后人誉为“秋思之祖”。"
+      },
+      {
+        "msg_id": 972,
+        "turn_id": 7,
+        "role": "user",
+        "intent": [
+          "Request",
+          "Summary"
+        ],
+        "response": "你知道《离骚》吗，那首诗太长了，我都背不下来，你有没有记忆古诗词的一些技巧？"
+      },
+      {
+        "msg_id": 989,
+        "turn_id": 7,
+        "role": "system",
+        "state": [
+          "记忆古诗词"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Answer",
+          "Summary"
+        ],
+        "selected_query": [],
+        "selected_result": [
+          {
+            "id": "answer-1",
+            "link": "http://www.baidu.com/link?url=2aaAjzC1nW9bhBPMP10Sf8pQvtVpO7ehjq858iqkZ6x42ipaCqvis29OgvJh-boigQXgMf112MiuQJfNm-jgsK"
+          }
+        ],
+        "response": "1.反复朗读要做到“熟能生巧”，并不是很难的是，小学生可以利用每天的早晨、中午、晚上睡觉前，进行朗读，反复阅读。记忆的形成包括我们各种感官的接受信息，视觉，听觉，触觉，嗅觉，感觉，味觉；反复朗读会让我们朗朗上口，正所谓：书读百遍，其义自见”，这样也能更好的去体会其中的意境了。\n\n2、化繁为简法化繁为简就是把我们要记忆的古诗简单化，运用每句的第一个字串联起来；这个方法最好和直接想象法同时进行，什么叫直接想象？就是把自己想象成作者，或诗中的人物，把那个场景演绎出来；把自己置身于古诗词中，会获得更加高效的记忆。\n\n3.　图片演绎法图片演绎就是诗句的画面感画出来；我们都说：一图抵千字。这就运用到了我们右脑的图像记忆的功能了。图像记忆是我们世界记忆大师的一种常用方法，就是运用想象力把抽象的东西想象成具象的东西，然后再记忆。\n\n4.关键词记忆法关键词记忆就是利用古诗词的一些重点词语作为线索，然后把整篇古诗词串联起来。如背诵《生于忧患，死于安乐》中历数担当大任的人遭艰难情状的句子，可住“苦”、“劳”、“饿”、“空乏”、“拂乱”等意义、用法独特和在文中作用显著的词语。"
+      },
+      {
+        "msg_id": 995,
+        "turn_id": 8,
+        "role": "user",
+        "intent": [
+          "Request",
+          "Summary"
+        ],
+        "response": "化繁为简和关键词记忆法有啥区别？"
+      },
+      {
+        "msg_id": 1020,
+        "turn_id": 8,
+        "role": "system",
+        "state": [
+          "记忆古诗词",
+          "化繁为简",
+          "关键词记忆法"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Answer",
+          "NoAnswer"
+        ],
+        "selected_query": [],
+        "selected_result": [],
+        "response": "关键词记忆法就是利用古诗词的一些重点词语作为线索，然后把整篇古诗词串联起来。而化繁为简法就是把我们要记忆的古诗简单化，运用每句的第一个字串联起来；这个方法最好和直接想象法同时进行，什么叫直接想象？就是把自己想象成作者，或诗中的人物，把那个场景演绎出来；把自己置身于古诗词中，会获得更加高效的记忆。"
+      },
+      {
+        "msg_id": 1031,
+        "turn_id": 8,
+        "role": "system",
+        "state": [
+          "记忆古诗词",
+          "化繁为简",
+          "关键词记忆法"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "request",
+          "Feedback"
+        ],
+        "selected_query": [],
+        "selected_result": [],
+        "response": "我想聪明的你一定理解了对不对？"
+      },
+      {
+        "msg_id": 1037,
+        "turn_id": 9,
+        "role": "user",
+        "intent": [
+          "Feedback",
+          "Perfect"
+        ],
+        "response": "是的呢！太棒了，下次有事再找你，再见！"
+      },
+      {
+        "msg_id": 1050,
+        "turn_id": 9,
+        "role": "system",
+        "state": [
+          "记忆古诗词",
+          "化繁为简",
+          "关键词记忆法"
+        ],
+        "query_candidate": [],
+        "result_candidate": [],
+        "action": [
+          "Chitchat"
+        ],
+        "selected_query": [],
+        "selected_result": [],
+        "response": "不客气呢很高兴为您服务！"
+      }
+    ],
+    "conversation_id": 723,
+    "intent": "intent:你想要了解一些经典古诗词 description:首先查找经典的古诗词，列出诗人，时间，事件等。然后给出有关古诗词的信息，如故事等。之后再找出记忆古诗词的一些技巧，比较技巧的相同和不同之处。",
+    "from": 1
+  }
+]

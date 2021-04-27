@@ -16,6 +16,7 @@
         v-model="formItem.selectedSearch"
         :activeActions="formItem.action"
         :data="searchResults"
+        :searchResultConfig="searchResultConfig"
         @on-change="selectedResultChanged"
         @on-order-change="selectedResultOrderChanged"
         ref="searchPanel"
@@ -99,6 +100,7 @@ export default {
     createSelect
   },
   props: {
+    searchResultConfig: {},
     conversationId: {
     },
     height: {

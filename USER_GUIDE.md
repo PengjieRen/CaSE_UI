@@ -3,7 +3,7 @@
 - Prepare your actions, backgrounds and instructions, demo files are in `/resources`
 
   **For json files, please do not change the structure or the json keys**
-- Run `java -jar path_to_war_file.war --dbHost=${your_mysqlhost} --dbPort=${your_mysqlport} --dbUser=${your_mysqluser} --dbPass=${your_mysqlpass} --actionFile=${absolutePath_to_actionFile} --backgroundFile=${absolutePath_to_backgroundFile} --serverPort=${server_port} --instructionFile=${instruction_file}` in your command line
+- Run `java -jar path_to_war_file.war --dbHost=${your_mysqlhost} --dbPort=${your_mysqlport} --dbUser=${your_mysqluser} --dbPass=${your_mysqlpass} --actionFile=${absolutePath_to_actionFile} --backgroundFile=${absolutePath_to_backgroundFile} --serverPort=${server_port} --instructionFile=${instruction_file} --searchResultConigFile=${search_result_conig_file}` in your command line
 
   **This command will connect to your mysql server and automatically create a database called `chat_labelling`** 
 - Login your mysql client, use database `chat_labelling`, add users to the system. For sys user, role='sys', for normal user, role='cus' 

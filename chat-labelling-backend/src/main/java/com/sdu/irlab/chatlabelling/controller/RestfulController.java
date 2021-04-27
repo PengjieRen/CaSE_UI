@@ -55,6 +55,10 @@ public class RestfulController {
     private String instructionFile;
     private static String instructionContent;
 
+    @Value("${searchResultConfigFile}")
+    private String searchResultConfigFile;
+    private static String searchResultConfigContent;
+
     @Autowired
     private CustomSessionManagement customSessionManagement;
 
@@ -97,7 +101,6 @@ public class RestfulController {
     }
 
     /**
-     *
      * @throws JsonProcessingException
      */
     @RequestMapping(value = "/checkProfile", method = RequestMethod.GET)
@@ -147,7 +150,7 @@ public class RestfulController {
      * @param req
      */
     @RequestMapping(value = "/saveSearchResults", method = RequestMethod.POST, headers = "Accept=application/json", produces = "application/json;charset=UTF-8")
-    public void saveSearchResults(@RequestBody String req, @RequestParam(value = "l") String user) {
+    public void saveSearchResults(@RequestBody String req, @RequestParam(value = "_user") String user) {
         try {
             JsonNode node = objectMapper.readTree(req);
             chatService.createSearchLog(user, node.get("query").asText(), node.get("data").toString(), node.get("conversationId").asText());
@@ -161,6 +164,11 @@ public class RestfulController {
     public String loadCurrentState(@RequestParam(value = "_user") String user) {
         Conversation conversation = chatService.getCurrentConversation(user);
         return conversation != null ? conversation.getState() : "[]";
+    }
+
+    @RequestMapping(value = "/loadSearchResultConfig", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
+    public String loadSearchResultConfig() {
+        return searchResultConfigContent;
     }
 
     @RequestMapping(value = "/loadActions", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
@@ -198,6 +206,10 @@ public class RestfulController {
         if (instructionContent != null) return;
         content = ChatLabellingUtils.readFileAsString(instructionFile, "UTF-8");
         instructionContent = content;
+
+        if (searchResultConfigContent != null) return;
+        content = ChatLabellingUtils.readFileAsString(searchResultConfigFile, "UTF-8");
+        searchResultConfigContent = content;
     }
 
     @Autowired

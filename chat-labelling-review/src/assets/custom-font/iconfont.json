@@ -1,0 +1,198 @@
+{
+  "id": "1614804",
+  "name": "custom-font",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5643595",
+      "name": "专业沟通",
+      "font_class": "zhuanyegoutong",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "5643596",
+      "name": "审批完成",
+      "font_class": "shenpiwancheng",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "5643597",
+      "name": "资质审批",
+      "font_class": "zizhishenpi",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "5643598",
+      "name": "申请合作",
+      "font_class": "shenqinghezuo",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "5643599",
+      "name": "定制方案",
+      "font_class": "dingzhifangan",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "5643800",
+      "name": "绩效奖金",
+      "font_class": "jixiaojiangjin",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "5643801",
+      "name": "五险一金",
+      "font_class": "wuxianyijin",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "5643802",
+      "name": "年底双薪",
+      "font_class": "niandishuangxin",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "5643803",
+      "name": "带薪年假",
+      "font_class": "daixinnianjia",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "5643804",
+      "name": "团建活动",
+      "font_class": "tuanjianhuodong",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "5643805",
+      "name": "节日礼物",
+      "font_class": "jieriliwu",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "5643806",
+      "name": "股票期权",
+      "font_class": "gupiaoqiquan",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "5643807",
+      "name": "扁平管理",
+      "font_class": "bianpingguanli",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "5815371",
+      "name": "数据管理",
+      "font_class": "shujuguanli",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "5815372",
+      "name": "办公地址",
+      "font_class": "bangongdizhi",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "5815373",
+      "name": "内容系统",
+      "font_class": "neirongxitong",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "5815374",
+      "name": "联系传真",
+      "font_class": "lianxichuanzhen",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "5815376",
+      "name": "价值系统",
+      "font_class": "jiazhixitong",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "5815377",
+      "name": "数据系统",
+      "font_class": "shujuxitong",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "5815378",
+      "name": "信息传播",
+      "font_class": "xinxichuanbo",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "5815379",
+      "name": "AI系统",
+      "font_class": "hebingxingzhuang",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "5815380",
+      "name": "智能机器",
+      "font_class": "zhinengjiqi",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "5815381",
+      "name": "小程序管理",
+      "font_class": "xiaochengxuguanli",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "5815382",
+      "name": "价值诉求",
+      "font_class": "jiazhisuqiu",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "5815383",
+      "name": "内容管理",
+      "font_class": "neirongguanli",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "5815386",
+      "name": "飞豆管理",
+      "font_class": "feidouguanli",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "5815434",
+      "name": "二维码",
+      "font_class": "erweima",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    }
+  ]
+}

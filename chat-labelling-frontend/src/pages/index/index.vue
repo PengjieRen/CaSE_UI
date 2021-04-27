@@ -63,6 +63,7 @@
               :actions="actions"
               :conversationId="conversationId"
               :finish="finish"
+              :searchResultConfig="searchResultConfig"
             />
           </Col>
         </Row>
@@ -110,7 +111,8 @@ export default {
       needProfile: false,
       background: '',
       instructions: '',
-      showInstructions: false
+      showInstructions: false,
+      searchResultConfig: {}
     }
   },
   methods: {
@@ -132,6 +134,8 @@ export default {
       await this.checkProfile()
       // this.message = 'Loading instructions'
       await this.loadInstructions()
+      // this.message = 'Loading search result config'
+      await this.loadSearchResultConfig()
       // this.message = 'Loading actions'
       await this.loadAction()
       // this.message = 'Waiting for commands from server'
@@ -145,6 +149,11 @@ export default {
     loadInstructions () {
       return this.$http.get('/api/instructions').then((response) => {
         this.instructions = response.data
+      })
+    },
+    loadSearchResultConfig () {
+      return this.$http.get('/api/loadSearchResultConfig').then((response) => {
+        this.searchResultConfig = response.data
       })
     },
     checkProfile () {
