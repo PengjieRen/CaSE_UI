@@ -1,0 +1,17 @@
+.idea
+node_modules/
+.mvn
+chat-labelling-backend/target/
+chat-labelling-frontend/dist
+.vscode
+.project
+.vscode
+npm-debug.log
+*.log
+*.iml
+package-lock.json
+chat-labelling-backend/src/main/resources/static/
+chat-labelling-proxy-server/target
+chat-labelling-publish/
+*.zip
+
