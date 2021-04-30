@@ -1,9 +1,9 @@
 ## This repo contains the code for the UI used in the following paper:
   @inproceedings{ren2021wizard,\
-  title={Wizard of Search Engine: Access to Information Through Conversations with Search Engines},\
-  author={Ren, Pengjie and Liu, Zhongkun and Song, Xiaomeng and Tian, Hongtao and Chen, Zhumin and Ren, Zhaochun and de Rijke, Maarten},\
-  booktitle={Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},\
-  year={2021}\
+>>title={Wizard of Search Engine: Access to Information Through Conversations with Search Engines},\
+>>author={Ren, Pengjie and Liu, Zhongkun and Song, Xiaomeng and Tian, Hongtao and Chen, Zhumin and Ren, Zhaochun and de Rijke, Maarten},\
+>>booktitle={Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},\
+>>year={2021}\
   }
   
 ![UI-1](./UI-1.png)
